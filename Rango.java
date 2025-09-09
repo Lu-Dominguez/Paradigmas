@@ -64,7 +64,7 @@ public class Rango {
 		if(otro.l1 != this.l1 || otro.l2 != this.l2)
 			return false;
 		
-		if(otro.r1 != this.r1 && otro.r2 != this.r2)
+		if(otro.r1 != this.r1 || otro.r2 != this.r2)
 			return false;
 		return true;
 	}
@@ -160,3 +160,4 @@ public class Rango {
 		return new Rango(ran1, ran2, this.l1, this.l2);
 	}
 }
+
